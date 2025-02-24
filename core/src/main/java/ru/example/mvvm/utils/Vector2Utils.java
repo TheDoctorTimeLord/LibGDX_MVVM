@@ -1,6 +1,5 @@
 package ru.example.mvvm.utils;
 
-import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.math.Vector2;
 
 /**
@@ -20,7 +19,6 @@ public class Vector2Utils {
      */
     public static Vector2 randomVector2(float magnitude) {
         return randomOneVector2().scl(magnitude);
-        Gdx.
     }
 
     private Vector2Utils() { }

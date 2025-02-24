@@ -74,7 +74,7 @@ public class Main extends ApplicationAdapter {
         return new MovingCircle(
             entityId,
             Vector2Utils.randomVector2(240).add(new Vector2(300, 220)),
-            Vector2Utils.randomOneVector2(),
+            Vector2Utils.randomVector2(100),
             MathUtils.random(1, 20)
         );
     }
